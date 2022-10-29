@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pagina de exemplo de estrutura de Formulário</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Liana">
+    <meta name="descrption" content="descrição banco">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <h1>Cadastro de DEVs</h1>
+    <h2>Complete com suas informações</h2>
+    <form>
+        <!--Cadastro de Dados Pessoais-->
+        <div>
+            <label for="fNome">Nome:</label>
+            <input type="text" id="fNome" name="fNome">
+        </div>
+
+        <div>
+            <label for="lSobrenome">Sobrenome:</label>
+            <input type="text" id="lSobrenome" name="lSobrenome">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+        </div>
+
+        <!--Qual parte da aplicação você desenvolve. Full, Back, Front...-->
+
+        <label for="bOpcoes">De qual lado da aplicação você desenvolve? </label><br>
+        <input type="radio" id="frontend" name="lado_aplicacao" value="Front-End">
+        <label for="frontend">Front-End</label><br>
+
+        <input type="radio" id="backend" name="lado_aplicacao" value="Back-End">
+        <label for="backend">Back-End</label><br>
+
+        <input type="radio" id="fullstrack" name="lado_aplicacao" value="Fullstrack">
+        <label for="fullstrack">Fullstrack</label><br>
+
+        <!--Senioridade-->
+
+        <label for="senioridade">Senioridade</label><br>
+        <select name="senioridade">
+            <option value=> </option> 
+            <option value="junior">Júnior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Sêniorr</option>
+        </select><br>
+
+        <label for="tecnologias"> Selecione as tecnologias que ultiliza:</label><br>
+        <input type="checkbox" id="html_tec" name="html" value="HTML">
+        <label for="html_tec">HTML</label>
+
+        <input type="checkbox" id="css_tec" name="css" value="CSS">
+        <label for="css_tec">CSS</label>
+
+        <input type="checkbox" id="javascript_tec" name="javascript" value="JavaScripit">
+        <label for="javascript_tec">JavaScripit</label>
+
+        <input type="checkbox" id="php_tec" name="php" value="PHP">
+        <label for="php_tec">PHP</label>
+
+        <input type="checkbox" id="c#_tec" name="c#" value="C#">
+        <label for="c#_tec">C#</label>
+
+        <input type="checkbox" id="python_tec" name="python" value="Python">
+        <label for="python_tec">Python</label>
+
+        <input type="checkbox" id="java_tec" name="java" value="Java">
+        <label for="java_tec">Java</label>
+
+    </form>
+</body>
+
+</html>

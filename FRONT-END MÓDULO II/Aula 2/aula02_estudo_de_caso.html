@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Apuração de votos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1> Apuração de votos</h1>
+    <script>
+        var total = prompt(("Digite o total de votos do Candidato"));
+        if (total == 5000) {
+            alert("Parabéns! Seu cargo é de Vereador!");
+        } else if (total >= 5000 && total <= 15000) {
+            alert("Parabéns seu cargo é de Deputado Federal");
+        } else if (total >= 15000 && total <= 40000) {
+            alert("Parabéns seu cargo é de Deputado Federal");
+        } else if (total > 40000) {
+            alert("Parabéns seu cargo é de Senador");
+        } 
+    </script>
+</body>
+
+</html>

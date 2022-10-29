@@ -1,0 +1,51 @@
+body {
+    background-image: url ("");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+
+}
+
+h1 {
+    color: tomato;
+    padding: 30px;
+    background-color: #31397e;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: black;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: black;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#idUm {
+    background-color: steelblue;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#idDois {
+    background-color: bisque;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#idTres {
+    background-color: cornsilk;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

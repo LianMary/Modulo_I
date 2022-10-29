@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 31</title>
+</head>
+
+<body>
+    <script>
+        /*  Foi realizada uma pesquisa sobre algumas caracteristicas
+        fisícas da população de uma certa região, a qual 
+        coletou os seguintes dados referentes a cada habitante para análise:
+            - Sexo( "M"- masculino o "F" feminino);
+            - Cor dos olhos (verde, azul e castanho);
+            - Cor dos cabeos (loiros, castanhose e pretos);
+            - Idade;
+        Faça um algoritimo que determine e escreva:
+            - A maior idade dos habitantes;
+            - A porcentagem entre os indivíduis do sexo feminino cuja idade está entre 18 e 35 anos;
+            - A porcentagm entre os individuos do sexo feminino cuja a idade está entre 18 e35 anos, inclusive ,
+            e que tenham olhos verdes e cabelos loiros;
+             
+        */
+        var sexo;
+        var idade;
+        var pessoas = 0;
+ 
+        // Quantidade de homens e mulheres
+        var homens = 0;
+        var mulheres = 0;
+
+        // Cor dos olhos
+        var cor_dos_olhos;
+        var olhos_verdes = 0;
+        var olhos_azuis = 0;
+        var olhos_castanhos = 0;
+
+        //Cor dos cabelo
+        var cor_dos_cabelos;
+        var cabelos_loiros=0;
+        var cabelos_castanhos=0;
+        var cabelos_pretos=0;
+
+        //Variaveis de porcentagens e resposta da questão
+        var maior_idade_entre_habitantes;
+        var mulheres_loiras_18a35_olhosVerdes = 0;
+        var homens_18a35 = 0;
+        var pop = "S";// A variavel vai controlar o loop. Nesse caso não há número definido de pessoas.
+        while (pop == "S") {
+            sexo = prompt("Digite o seu sexo. ( F- femenino, M- masculino )");
+            idade = parseInt(prompt("Digite sua idade."));
+            cor_dos_cabelos = prompt("Digite a cor dos seus cabelos. (L- loiros, C- castanhos ou P- pretos");
+            cor_dos_olhos = prompt("Digite a cor dos seus olhos. (A- azuis, C-castanhos , V- verdes");
+             
+            if(sexo=="F"){
+                mulheres++;
+            }
+            if(sexo=="M"){
+                homens++;
+            }
+            if(cor_dos_cabelos=="P"){
+                cabelos_pretos++;
+            }
+            if(cor_dos_cabelos=="L"){
+                cabelos_loiros++;
+            }
+            if(cor_dos_cabelos=="C"){
+                cabelos_castanhos++;
+            }
+            if(cor_dos_olhos=="A"){
+                olhos_azuis++;
+            }
+            if(cor_dos_olhos=="C"){
+                olhos_castanhos++;
+            }
+            if(cor_dos_olhos=="V"){
+                olhos_verdes++;
+            }
+            pessoas++;
+        }
+        //Conta da porcentagem de homens 
+        
+
+    </script>
+</body>
+
+</html>

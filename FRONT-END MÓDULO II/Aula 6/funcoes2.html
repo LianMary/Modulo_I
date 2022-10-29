@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exemplo</title>
+</head>
+
+<body>
+    <script>
+        /*Programa que pede o nome e as duas notas de 03 alunos
+         e calcula suas médias( usar for e function)*/
+
+        function media(n1, n2) {
+            return (n1 + n2) / 2;
+        }
+        var alunos = 1;
+        for (alunos = 1; alunos <= 3; alunos++) {
+            var nome = prompt("Digite seu nome:")
+            var nota1 = parseInt(prompt("Primeira Nota"));
+            var nota2 = parseInt(prompt("Segunda Nota"));
+            alert(media(nota1, nota2));
+        } 
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemplo 6</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        var n1 = parseInt(prompt("Digite um número"));
+        var n2 = parseInt(prompt("Digite outro número"));
+        var n3 = parseInt(prompt("Digite mais um outro número:"));
+        if (n1 > n2 && n1 > n3) {
+            alert("O numéro maior é o" + n1);
+        }
+        else if (n2 > n1 && n2 > n3) {
+            alert("O número maior é o " + n2);
+        }
+        else if (n3 > n1 && n3 > n2) {
+            alert("O maior número é o " + n3);
+        }
+        else if(n1 == n2 && n2 == n3){
+            alert("Todos são iguais");
+        }
+    </script>
+</body>
+
+</html>
